@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hiking Adventures</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="css/main.css" rel="stylesheet" media="screen"/>
+    <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="landing"></div>
+
+<div id="main">
+
+  <div class="hike">
+    <div class="tree">
+      <img src="images/spruce.png" height="64" width="64"><img src="images/spruce.png" height="64" width="64"><img src="images/spruce.png" height="64" width="64">
+    </div>
+    <div class="hikeLeft">
+      <h1>Wildcat Wayside Nature Trail</h1>
+      <p>Cleveland, South Carolina</p>
+      <p>Summer 2019</p>
+      <p>24 Pictures</p>
+    </div>
+    <div class="gallery">
+      <img src="images/back.png" height="64" width="64">
+      <img src="images/1hike/1hike_1.jpg" id="firstImg" style="width:25%;height:25%">
+      <div id="firstModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
+      <img src="images/forward.png" height="64" width="64" onClick="change_image()">
+    </div>
+  </div>
+
+  <div class="hike">
+    <div class="tree"><img src="images/pine.png" height="64" width="64"><img src="images/pine.png" height="64" width="64"><img src="images/pine.png" height="64" width="64"></div>
+    <div class="hikeRight"><h1>Carrick Creek Loop</h1>
+    <p>Table Rock State Park, South Carolina</p>
+    <p>Summer 2019</p></div>
+    <div class="gallery"><img src="images/back.png" height="64" width="64"><img src="images/2hike/2hike_1.jpg" height="25%" width="25%" id="myImg"><img src="images/forward.png" height="64" width="64"></div>
+  </div>
+  <div class="hike">
+    <div class="tree"><img src="images/spruce.png" height="64" width="64"><img src="images/spruce.png" height="64" width="64"><img src="images/spruce.png" height="64" width="64"></div>
+    <div class="hikeLeft"><h1>Brissy Ridge</h1>
+    <p>Paris Mountain State Park in South Carolina</p>
+    <p>Summer 2019</p></div>
+    <div class="gallery"><img src="images/back.png" height="64" width="64"><img src="images/3hike/3hike_1.jpg" height="25%" width="25%" id="myImg"><img src="images/forward.png" height="64" width="64"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-copyright">
+    <p><a href="www.codydickson.com">Cody Dickson</a> © 2019 Copyright</p>
+    <p>This website was created as part of my web development portfolio.</p>
+  </div>
+  <div>
+    <p>Tree Icon made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> and Arrow Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+  </div>
+</footer>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
